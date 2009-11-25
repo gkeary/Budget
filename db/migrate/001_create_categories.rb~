@@ -1,0 +1,95 @@
+require 'YAML'
+
+class CreateCategories < ActiveRecord::Migration
+  #%w(YAML pp).each  { |dep| require dep}
+
+  @@obj = YAML::load(DATA)
+  def load
+    @@obj.each { |o| Category.create(:name => o.name, :subcat => o.name, :major => true)
+    }
+   end
+
+  def self.up     
+    create_table :categories do |t|
+      t.string :name
+      t.string :subcat
+      t.boolean :major
+      t.timestamps
+    end
+    #load if @@obj.count > 0
+
+
+  end
+
+  def self.down
+    drop_table :categories
+  end
+end
+__END__
+--- 
+- 
+   name   : Auto & Transport
+   major  : true
+- 
+   name   : Bills & Utilities
+   major  : true
+- 
+   name   : Business Services
+   major  : true
+- 
+   name   : Education
+   major  : true
+- 
+   name   : Entertainment
+   major  : true
+- 
+   name   : Fees & Charges
+   major  : true
+- 
+   name   : Financial
+   major  : true
+- 
+   name   : Food & Dining
+   major  : true
+- 
+   name   : Gifts & Donations
+   major  : true
+- 
+   name   : Health & Fitness
+   major  : true
+- 
+   name   : Home 
+   major  : true
+- 
+   name   : Income
+   major  : true
+- 
+   name   : Investments
+   major  : true
+- 
+   name   : Kids
+   major  : true
+- 
+   name   : Personal Care
+   major  : true
+- 
+   name   : Pets
+   major  : true
+- 
+   name   : Shopping
+   major  : true
+- 
+   name   : Taxes
+   major  : true
+- 
+   name   : Transfer
+   major  : true
+- 
+   name   : Travel
+   major  : true
+- 
+   name   : Uncategorized
+   major  : true
+- 
+   name   : Exclude From Mint
+   major  : true
