@@ -1,0 +1,68 @@
+
+--- 
+- 
+   name   : Auto & Transport
+   major  : true
+- 
+   name   : Bills & Utilities
+   major  : true
+- 
+   name   : Business Services
+   major  : true
+- 
+   name   : Education
+   major  : true
+- 
+   name   : Entertainment
+   major  : true
+- 
+   name   : Fees & Charges
+   major  : true
+- 
+   name   : Financial
+   major  : true
+- 
+   name   : Food & Dining
+   major  : true
+- 
+   name   : Gifts & Donations
+   major  : true
+- 
+   name   : Health & Fitness
+   major  : true
+- 
+   name   : Home 
+   major  : true
+- 
+   name   : Income
+   major  : true
+- 
+   name   : Investments
+   major  : true
+- 
+   name   : Kids
+   major  : true
+- 
+   name   : Personal Care
+   major  : true
+- 
+   name   : Pets
+   major  : true
+- 
+   name   : Shopping
+   major  : true
+- 
+   name   : Taxes
+   major  : true
+- 
+   name   : Transfer
+   major  : true
+- 
+   name   : Travel
+   major  : true
+- 
+   name   : Uncategorized
+   major  : true
+- 
+   name   : Exclude From Mint
+   major  : true

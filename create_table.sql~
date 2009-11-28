@@ -1,0 +1,24 @@
+
+
+
+class Transaction < ActiveRecord::Migration
+  def self.up
+   create_table :transactions do |t|
+	t.datatime 	:Date	
+	t.string	:Description	
+	t.string	:OriginalDescription	
+	t.decimal	:Amount	
+	t.string	:TransactionType	
+	t.string	:Category	
+	t.string	:AccountName	
+	t.string	:Labels	
+	t.string	:Notes
+      	t.timestamps
+    end
+  end
+
+  def self.down
+    drop_table :transactions
+  end
+end
+

@@ -1,0 +1,24 @@
+class LoadSubcat < ActiveRecord::Migration
+  def self.up
+    require 'pp'
+
+    io = File.open('./db/migrate/cat.yaml')
+    $obj = YAML::load(io)
+
+    pp $obj
+
+    $obj.each do |o|
+         Category.create(
+             :name => o['name'],
+             :subcat => o['name'],
+             :major => 1)
+        end
+
+   end
+
+  def self.down
+    a = Category.find(:conditions => !:major )
+    a.each.destroy
+    #(Category.find(:condition=> :major==1)).destroy
+   end
+end

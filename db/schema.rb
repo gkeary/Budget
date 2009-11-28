@@ -9,12 +9,26 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 1) do
+ActiveRecord::Schema.define(:version => 4) do
 
   create_table "categories", :force => true do |t|
     t.string   "name"
     t.string   "subcat"
     t.boolean  "major"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "transactions", :force => true do |t|
+    t.date     "date"
+    t.string   "description"
+    t.string   "desc_original"
+    t.decimal  "amount",        :precision => 12, :scale => 2
+    t.string   "transtype"
+    t.string   "category"
+    t.string   "account_name"
+    t.string   "labels"
+    t.string   "notes"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

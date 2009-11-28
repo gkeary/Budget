@@ -1,0 +1,66 @@
+
+--- 
+- 
+   name   : Auto & Transport
+   subcat : [Auto Insurance, Auto Payment, Gas & Fuel, Parking, Public Transportation, Service & Parts]
+
+- 
+   name   : Bills & Utilities
+   subcat : [Home Phone, Internet, Mobile Phone, Television, Utilities, CABLE, Electric]
+- 
+   name   : Business Services
+   subcat :  [Advertising, Legal, Office Supplies, Printing, Shipping, Professional develop]
+- 
+   name   : Education
+   subcat : [Books & Supplies, Student Loan, Tuition]
+- 
+   name   : Entertainment
+   subcat : [Amusement, Arts, Movies & DVDs, Music, Newspapers & Magazines, Crafts, Dollhouse, Sking]
+- 
+   name   : Fees & Charges
+   subcat : [ATM Fee, Bank Fee, Finance Charge, Late Fee, Service Fee, Trade Commissions] 
+- 
+   name   : Financial
+   subcat : [Financial Advisor, Life Insurance, Advisor Fee]
+- 
+   name   : Food & Dining
+   subcat : [Alcohol & Bars, Coffee Shops, Fast Food, Groceries, Restaurants]
+- 
+   name   : Gifts & Donations
+   subcat : [Charity, Gift, Christmas 2008]
+- 
+   name   : Health & Fitness
+   subcat : [Dentist, Doctor, Eyecare, Gym, Health Insurance, Pharmacy, Sports, Dental Insurance]
+- 
+   name   : Home 
+   subcat : [Furnishings, Home Improvement, Home Insurance, Home Services, Home Supplies, Lawn & Garden, Mortgage & Rent]
+- 
+   name   : Income
+   subcat : [Bonus, Interest Income, Paycheck, Reimbursement, Rental Income, Returned Purchase, Corsof, Social Security RGK, USCG]
+- 
+   name   : Investments
+   subcat : [Buy, Deposit, Dividend & Cap Gains, Sell, Withdrawal]
+- 
+   name   : Kids
+   subcat : [Allowance, Baby Supplies, Babysitter & Daycare, Child Support, Kids Activities, Toys] 
+- 
+   name   : Personal Care
+   subcat : [Hair, Laundry, Spa & Massage, Weight Loss]
+- 
+   name   : Pets
+   subcat : [Pet Food & Supplies, Pet Grooming, Veterinary]
+- 
+   name   : Shopping
+   subcat : [Books, Clothing, Electronics & Software, Hobbies, Sporting Goods]
+- 
+   name   : Taxes
+   subcat : [Federal Tax, Local Tax, Property Tax, Sales Tax, State Tax, Excise Tax, Tax Preparation]
+- 
+   name   : Transfer
+   subcat : [Credit Card Payment, HELOC Payment, Transfer to Savings, WVK loan]
+- 
+   name   : Travel
+   subcat : [Air Travel, Hotel, Rental Car & Taxi, Vacation]
+- 
+   name   : Uncategorized
+   subcat : [Cash & ATM, Check, USCG Pension]
